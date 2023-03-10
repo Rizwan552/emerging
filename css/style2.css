@@ -1,0 +1,242 @@
+body {
+    background-image: url(../images/pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+.collab {
+    background-image: url(../images/eyes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    padding: 3%;
+}
+
+.info {
+    background-image: url(../images/4884841.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#ok {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.modal-title {
+    color: black;
+    margin-bottom: 90px;
+}
+
+.modal-header {
+    height: 80px;
+}
+
+.navbar-nav {
+    margin-right: 5%;
+}
+
+.info h1:hover {
+    color: rgb(0, 255, 0);
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.navbar-brand {
+    margin-left: 10%
+}
+
+.navbar-brand:hover {
+    opacity: 0.5;
+}
+
+.navbar-nav .nav-item .nav-link {
+
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 255, 0);
+}
+
+.dropdown-item {
+    color: antiquewhite;
+}
+
+.row2 {
+    margin-top: 30px;
+}
+
+.active1 {
+    color: rgb(0, 255, 0);
+}
+
+span {
+    color: rgb(0, 255, 0);
+}
+
+#curios {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#curios2 {
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 70px;
+}
+
+#raas {
+    color: white;
+}
+
+#courses {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#yes {
+    text-align: center;
+    color: rgb(0, 255, 0);
+}
+
+.courses-we {
+    padding: 8%;
+}
+
+.courses-we,
+p {
+    color: aliceblue;
+    text-align: left;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+    #cro {
+        height: auto;
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 610px) {
+    #ok {
+        color: rgb(247, 247, 247);
+        text-align: center;
+        font-weight: bold;
+        margin-top: 150px;
+        font-size: 35px;
+    }
+
+    #curios {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    #curios2 {
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 40px;
+    }
+
+    #cro {
+        height: auto;
+        width: 100%;
+    }
+
+    #youtube {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+    .nav-link {
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .active1 {
+        color: rgb(0, 255, 0);
+    }
+
+    #cro {
+        height: auto;
+        width: 100%;
+    }
+
+    #yes {
+        text-align: left;
+        color: rgb(0, 255, 0);
+    }
+
+    #cro {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+
+    .nav-link {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .active1 {
+        color: rgb(0, 255, 0);
+    }
+
+    #yes {
+        text-align: left;
+        color: rgb(0, 255, 0);
+    }
+
+    #cro {
+        height: auto;
+        width: 100%;
+    }
+
+    #curios {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    #curios2 {
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 40px;
+    }
+
+    #youtube {
+        height: 300px;
+        width: 450px;
+    }
+}
